@@ -27,9 +27,22 @@ body {
   color: white;
   border-radius: 5px;
 }
+.btn.primary:hover{
+	background:#0056b3;
+}
 
 /* CARD */
+.card {
+  background: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
 .card:hover {
   transform: translateY(-5px);
-  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.01);
+}
+
+.form input:focus,
+.form textarea:focus{
+	outline:none;
+	border-color:#007bff;
 }
